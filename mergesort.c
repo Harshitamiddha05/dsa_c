@@ -4,7 +4,7 @@ void merge(int a[],int l,int mid,int u)
 {
     int i=l;
     int j=mid+1;
-    int k=i;
+    int k=l;
     int temp[10];
     while(i<=mid && j<=u)
     {
